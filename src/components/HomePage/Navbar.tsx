@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-4">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logo.png"
+            src="/Images/logo.png"
             alt="Budhanilkantha School logo"
             width={56}
             height={56}
