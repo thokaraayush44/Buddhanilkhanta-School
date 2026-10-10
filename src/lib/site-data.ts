@@ -52,9 +52,15 @@ export const navItems: NavItem[] = [
     label: "Notice",
     href: "/notice",
     children: [
-      { label: "General Notices", href: "/notice/general" },
-      { label: "Tender Notices", href: "/notice/tender" },
-      { label: "Vacancy", href: "/notice/vacancy" },
+      { label: "General Notices", href: "/notice" },
+      {
+        label: "Tender Notices",
+        href: "/notice/invitation-for-bids-no-bnksncbworks012082-83",
+      },
+      {
+        label: "Vacancy",
+        href: "/notice/teachers-and-psychological-counsellor-wanted",
+      },
     ],
   },
   
@@ -85,13 +91,16 @@ export const loginLinks = [
 
 
 export const tickerNotices = [
-  { title: "Revised Tender Notice (Wall Construction)", href: "/notice/tender" },
+  {
+    title: "Revised Tender Notice (Wall Construction)",
+    href: "/notice/revised-tender-notice-wall-construction",
+  },
   {
     title: "BNKS Contributes Rs. 14 Lakh to the Prime Minister's Disaster Relief Fund",
-    href: "/notice/general",
+    href: "/notice/bnks-contributes-rs-14-lakh-to-the-prime-ministers-disaster-relief-fund",
   },
-  { title: "Graduation Ceremony", href: "/notice/general" },
-  { title: "INVITATION FOR BIDS", href: "/notice/tender" },
+  { title: "Graduation Ceremony", href: "/notice/graduation-ceremony" },
+  { title: "INVITATION FOR BIDS", href: "/notice/invitation-for-bids" },
 ];
 
 export const introduction = {
@@ -112,7 +121,7 @@ export const latestNews = [
     excerpt:
       "Budhanilkantha School (BNKS) invites electronic bids from eligible bidders for the construction of East Side Boundary Wall with V-Drain, Toe Wall and Landscaping, Main Gate and Guard Post (Package-C \u201c1st Phase\u201d) under National Competitive Bidding \u2013 Single Stage Two Envelope Bidding procedures.",
     image: "/Images/announcement.jpg",
-    href: "/notice/tender",
+    href: "/notice/invitation-for-bids-no-bnksncbworks012082-83",
   },
   {
     title: "Graduation Ceremony",
@@ -120,7 +129,7 @@ export const latestNews = [
     excerpt:
       "Due to the tragic situation resulting from the recent flooding, the Graduation Ceremony for 7000E Batch, originally scheduled for Sunday, 14 Bhadra 2083 (30 August 2026), has been postponed until further notice. The revised date will be communicated to students and parents at a later time.",
     image: "/Images/announcement.jpg",
-    href: "/notice/general",
+    href: "/notice/graduation-ceremony",
   },
 ];
 

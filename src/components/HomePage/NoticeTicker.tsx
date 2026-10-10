@@ -18,7 +18,7 @@ export default function NoticeTicker() {
       </div>
 
       <div className="group relative flex-1 overflow-hidden py-4 pl-8">
-        <ul className="flex w-max animate-marquee items-center gap-10 whitespace-nowrap group-hover:[animation-play-state:paused] motion-reduce:animate-none">
+        <ul className="flex w-max animate-marquee items-center gap-10 whitespace-nowrap group-hover:[animation-play-state:paused]">
           {items.map((notice, i) => (
             <li key={`${notice.title}-${i}`}>
               <Link href={notice.href} className="text-[15px] hover:underline">
